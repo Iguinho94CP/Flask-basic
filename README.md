@@ -1,5 +1,5 @@
 # Flask-basic
-This is flask starter template with one blueprint registered (main). Environment variables are in separate file(.env). Config variables are loaded using python-dotenv which is recommended way.
+This is flask starter template with one blueprint registered (main). Environment variables are in separate file(.env). Config variables are loaded using python-dotenv which is recommended way. Application factorie is used, you can have multiple instances of the same application running in the same application process.
 
 ### How to use it:
 
