@@ -1,5 +1,5 @@
 # Flask-basic
-This is flask starter template with one blueprint registered (main).
+This is flask starter template with one blueprint registered (main). Environment variables are in separate file(.env). Config variables are loaded using python-dotenv which is recommended way.
 
 ### How to use it:
 
@@ -13,3 +13,6 @@ This is flask starter template with one blueprint registered (main).
 FLASK_APP=run.py  
 FLASK_DEBUG=1   
 SECRET_KEY='*******************************'
+
+- pip install -r requirements.txt
+- flask run
